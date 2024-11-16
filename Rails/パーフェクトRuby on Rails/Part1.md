@@ -30,6 +30,8 @@ Gemfile.lock
 アプリケーションの設定ファイルなど、アプリケーション起動時に必要な情報を定義するディレクトリ
 routes.rbやdatebase.ymlなどがある。
 
+routes.rbではルーティングの定義が行われる
+
 ## railsコマンドについて
 rails db:drop データベースを削除する。
 
