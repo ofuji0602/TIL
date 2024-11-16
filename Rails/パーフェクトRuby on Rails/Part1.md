@@ -36,3 +36,7 @@ rails db:drop データベースを削除する。
 rails db:setup　データベースを作成し、スキーマの読み込みとシードデータの読み込みを行う。
 
 rails routes　URLとコントローラーを紐づけてルーティング情報を出力する
+
+## CRUDについて
+データの基本的な操作を表す概念
+Create（作成）Read（読み取り）Update（更新）Delete（削除）
