@@ -29,3 +29,8 @@ Gemfile.lock
 ## configディレクトリについて
 アプリケーションの設定ファイルなど、アプリケーション起動時に必要な情報を定義するディレクトリ
 routes.rbやdatebase.ymlなどがある。
+
+## railsコマンドについて
+rails db:drop データベースを削除する。
+rails db:setup　データベースを作成し、スキーマの読み込みとシードデータの読み込みを行う。
+rails routes　URLとコントローラーを紐づけてルーティング情報を出力する
