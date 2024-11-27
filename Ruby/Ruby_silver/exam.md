@@ -36,3 +36,12 @@ arr = [
 p arr.collect { |a| a ? 1 : 2 }.inject(:+)
 ```
 inject(:+)は配列の要素を合計します。
+```
+1: io = File.open('list.txt')
+2: 
+3: while not io.eof?
+4:   io.readlines
+5:   io.seek(0, IO::SEEK_CUR)
+6:   p io.readlines
+7: end
+```
