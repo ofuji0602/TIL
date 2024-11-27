@@ -1,7 +1,17 @@
+次のコードの実行
+```
+1: io = File.open('list.txt')
+2: 
+3: while not io.eof?
+4:   io.readlines
+5:   io.seek(0, IO::SEEK_CUR)
+6:   p io.readlines
+7: end
+答え
+[]
+```
 可変長引数について調べる
 slice(index, length) は、配列の指定した位置から指定した長さの要素を取り出すメソッドです。
-次のコードの実行
-
 ```
 count = 0
 begin
