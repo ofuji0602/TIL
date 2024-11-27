@@ -35,3 +35,4 @@ arr = [
 
 p arr.collect { |a| a ? 1 : 2 }.inject(:+)
 ```
+inject(:+)は配列の要素を合計します。
