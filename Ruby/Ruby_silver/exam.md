@@ -1,4 +1,5 @@
 次のコードの実行
+
 ```
 count = 0
 begin
@@ -16,4 +17,8 @@ else
   puts 4
 ensure
   puts "count: #{count}"
-end```
+end
+```
+
+Object#eql?メソッドはレシーバと引数の同値性を検証します。
+Object#equal?メソッドはレシーバと引数のオブジェクトIDを比較し同一性を検証します。
